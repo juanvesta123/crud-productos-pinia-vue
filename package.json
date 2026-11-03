@@ -1,0 +1,22 @@
+{
+  "name": "crud-productos-pinia-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "evidence:terminal": "node scripts/evidence-terminal.mjs"
+  },
+  "dependencies": {
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "playwright": "^1.64.1",
+    "vite": "^8.3.5"
+  }
+}
