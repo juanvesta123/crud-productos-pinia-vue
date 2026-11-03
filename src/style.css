@@ -1,7 +1,7 @@
 :root {
   font-family: Arial, Helvetica, sans-serif;
   color: #1f2937;
-  background: #f7f7f7;
+  background: #f3f5f7;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -31,6 +31,7 @@ a {
 }
 
 .site-header {
+  border-top: 4px solid #285a78;
   background: #ffffff;
   border-bottom: 1px solid #dcdcdc;
 }
@@ -221,6 +222,11 @@ nav a:focus-visible,
 .cart-row + .cart-row {
   border-top: 1px solid #e5e5e5;
 }
+
+.product-row:hover { background: #f8fafb; }
+.product-row { transition: background-color 150ms ease; }
+.button-primary { background: #285a78; }
+.button-primary:hover { background: #1e465f; }
 
 .product-row h2,
 .cart-row h2 {
